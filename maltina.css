@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #e3e3e4;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.malt {
+  background-color: rgb(136, 127, 127);
+}
+.container {
+  display: flex;
+  width: 90%;
+  flex-wrap: wrap;
+}
+div {
+  height: 100px;
+  width: 100px;
+}
